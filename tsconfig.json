@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "lib": ["ES2015"],
+    "noEmit": true,
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "strict": true,
+    "downlevelIteration": true,
+    "types": [], /* no globals included by default */
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["machine.ts", "debug.ts"]
+}
