@@ -1,6 +1,6 @@
 import { d } from './machine.js';
 
-function unknownState(from, state) {
+function unknownState(from: string, state: string) {
   throw new Error(`Cannot transition from ${from} to unknown state: ${state}`);
 }
 
