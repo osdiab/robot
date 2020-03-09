@@ -35,12 +35,15 @@
   "devDependencies": {
     "@11ty/eleventy": "^0.9.0",
     "@11ty/eleventy-plugin-syntaxhighlight": "^2.0.3",
+    "@rollup/plugin-typescript": "^4.0.0",
     "bundlesize": "^0.18.0",
     "http-server": "^0.11.1",
     "markdown-it": "^9.1.0",
     "markdown-it-toc-and-anchor": "^4.2.0",
     "node-qunit-puppeteer": "^1.0.13",
     "rollup": "^1.21.4",
-    "terser": "^4.3.1"
+    "terser": "^4.3.1",
+    "tslib": "^1.11.1",
+    "typescript": "^3.8.3"
   }
 }
